@@ -1,0 +1,24 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Ma page{% endblock %}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/login">login</a>
+    </div>
+
+    <header>
+        <h1>Mon Application FastAPI</h1>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+</body>
+</html>

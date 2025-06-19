@@ -1,0 +1,8 @@
+dash==3.0.4
+fastapi==0.115.12
+Flask==3.0.3                # OK (même si Dash inclut déjà Flask)
+gunicorn==23.0.0
+uvicorn==0.34.3
+requests==2.32.3
+python-multipart==0.0.20
+jinja2                       # Tu utilises Jinja2 dans FastAPI pour les templates

@@ -1,2 +1,2 @@
-# azure2
-fastapi + dash + weatherapi 
+# azur2
+
