@@ -9,7 +9,7 @@ try:
     # response = requests.get("http://127.0.0.1:8000/info")
 
     # Nouvelle ligne Azure :
-    response = requests.get("https://weatherproject-gtftcnh8ghadgqhp.canadacentral-01.azurewebsites.net/info")
+    response = requests.get("https://wetather-api-hdevfbcpdga0brcm.canadaeast-01.azurewebsites.net/info")
 
     if response.status_code == 200:
         Info = response.json()
